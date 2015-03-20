@@ -1,0 +1,7 @@
+.Rproj.user/
+packrat/
+.Rhistory
+.Rprofile
+*.Rproj
+*.html
+data.txt
