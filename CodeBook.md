@@ -4,18 +4,20 @@
 
 For a general description of the experiments recorded see http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones  
 
-### activitylabel
+### Data Columns
+
+#### activitylabel
 
 Identifies the activity recorded
 For a video of the experiment including an example of the 6 recorded activities see http://www.youtube.com/watch?v=XOEN9W05_4A
 
-### subjectnr
+#### subjectnr
 
 Identifies the subject who performed the activity. Its range is from 1 to 30
 
-### All other columns
+#### all other columns
 
-#### Original data - filtered and names tidied
+##### Original data - filtered and names tidied
 
 The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals time.Accelerometer.XYZ and time.Gyroscope.XYZ. These time domain signals were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (time.Body.Accelerometer.XYZ and time.Gravity.Accelerometer.XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
 
@@ -49,6 +51,6 @@ The set of variables that were estimated from these signals are:
 * .mean: Mean value
 * .std: Standard deviation
 
-#### Coursera project
+##### Coursera project
 
 Finally all resulting variables were averaged for each activity and each subject
